@@ -18,16 +18,16 @@ h3{
 p{
     text-align: justify;
 }
-.first-part{
+.first-middle{
     display: flex;
     margin-left: 100px;
     
     padding: 20px;
 }
-.first{
+.first-second{
     width: 80%;
 }
-.first img{
+.first-image img{
     width: 80%;
     margin-left: 10%;
 }
@@ -38,4 +38,40 @@ p{
     border-radius: 10px;
     font-weight: 900;
     color: white;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.first-text{
+    width: 80%;
+    margin-left: 10%;
+}
+.last-part{
+    display: flex;
+    margin-left: 12%;
+}
+.last{
+    width: 600px;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px 40px gray;   
+}
+h2{
+    font-size: 40px;
+}
+.full-stack{
+    border-left:7px solid ;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice:1 ;
+}
+.baby-web{
+    border-left: 7px solid; 
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    margin-top: 200px;
 }
